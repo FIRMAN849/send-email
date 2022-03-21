@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-family: 'Poppins',sans-serif;
+    color: #1B1A17;
+    font-weight: 600;
+    text-align: center;
+}
+
+.message-email{
+    margin-top: 100px;
+}
+.form{
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: -1px 10px 19px 0px rgba(186,181,181,0.75);
+    -webkit-box-shadow: -1px 10px 19px 0px rgba(186,181,181,0.75);
+    -moz-box-shadow: -1px 10px 19px 0px rgba(186,181,181,0.75);
+    border-radius: 20px;
+}
+
+.form-group{
+    display: flex;
+    width: 100%;
+    gap: 75px;
+    text-align: center;
+}
+
+.subject{
+    width: 450px;
+}
+
+.form-input{
+    margin: 10px 0;
+    outline: none;
+    padding: 14px 16px;
+    font-family: 'Poppins',sans-serif;
+    border: 1px solid #a6a6a6;
+    color: #1B1A17;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.form-input::placeholder{
+    font-family: 'Poppins',sans-serif;
+    color: #a6a6a6;
+    font-size: 14px;
+}
+
+textarea{
+    width: 450px;
+}
+
+.btn{
+    width: 485px;
+    background-color: #F0A500;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 700;
+}
+
+.btn:hover{
+    background-color: #e6b448;
+}
